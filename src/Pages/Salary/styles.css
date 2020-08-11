@@ -1,0 +1,87 @@
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  color: #e67e22;
+}
+
+.text-center {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.field input {
+  margin-bottom: 2rem;
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #20b2aa;
+  outline: 0;
+  font-size: 1.2rem;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.field label {
+  color: #808080;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+.float-container {
+  padding: 0 8px;
+  position: relative;
+}
+
+#calculations-field input {
+  padding: 30px 0 0px;
+  width: 300px;
+  border: 0;
+  border-bottom: 2px solid #20b2aa;
+  outline: 0;
+  font-size: 1.2rem;
+  background: transparent;
+  transition: border-color 0.2s;
+  margin-bottom: 2rem;
+}
+
+.irpfDiscount {
+  color: #c0392b;
+}
+
+.inssDiscount {
+  color: #e67e22;
+}
+
+#calculations-field label {
+  position: absolute;
+  margin-right: 1rem;
+  color: #808080;
+  font-size: 1rem;
+}
+
+#total-field input {
+  padding: 30px 0 0px;
+  width: 300px;
+  border: 0;
+  border-bottom: 2px solid #20b2aa;
+  outline: 0;
+  color: #16a085;
+  font-size: 1.2rem;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+#total-field label {
+  position: absolute;
+  color: #808080;
+  font-size: 1.1rem;
+}
